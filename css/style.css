@@ -1,0 +1,310 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+/*********************************************/
+
+/*header*/
+
+/*********************************************/
+header{
+  height: 100px;
+  width: 100%;
+}
+header > img{
+  float: left;
+}
+nav section{
+  float: left;
+  height: 22px;
+  width: 40%;
+}
+header > span{
+  clear: both;
+}
+nav ul{
+  list-style: none;
+  margin-top: 20px;
+}
+nav ul li{
+  float: left;
+  margin-right: 10px;
+}
+nav section span{
+  padding-left: 40px;
+}
+.grey{
+  color: lightgrey;
+}
+.green{
+  color:green;
+  padding: 5px;
+}
+.white{
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 30px;
+}
+.topRight{
+  float: right;
+  width: 100%;
+  height: 50%;
+  height: 22px;
+}
+.topForm{
+  float: right;
+  width: 100%;
+  height: 50%;
+}
+.first{
+  float: right;
+}
+.navi{
+  float: right;
+  height: 100px;
+}
+.message{
+  float: right;
+  background-color: black;
+  color: white;
+  padding: 0;
+}
+.three{
+    float: left;
+    width: 3%;
+    height: 50px;
+}
+.topRight ul{
+  float: right;
+  margin-top: 0px;
+}
+.topForm span{
+  float: right;
+}
+.topForm form{
+  float: right;
+}
+.topForm section{
+  float: right;
+}
+.topRight ul li{
+margin-right: 3px;
+}
+/*********************************************/
+
+/*body*/
+
+/*********************************************/
+h1{
+  width: 640px;
+}
+.line{
+  background-color: darkgreen;
+  text-align: center;
+  color: white;
+  height: 30px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+.crunch{
+  color: green;
+}
+.main {
+  float: left;
+  width: 46%;
+}
+.second{
+  float: left;
+  width: 25%;
+}
+.main small{
+  color: lightgrey;
+}
+.line p{
+  height: 30px;
+  width: 100%;
+  background-color: darkgreen;
+  color: white;
+  padding-left: 280px;
+  padding-top: 5px;
+}
+.second ul{
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+h4{
+  margin: 0px;
+}
+.second img{
+  float: left;
+  height: 65;
+  width: 30%;
+}
+h6{
+  float: left;
+}
+.two li{
+  background-color: white;
+  margin:0 10px 0 10px;
+}
+.second li{
+  margin-bottom: 17px;
+}
+.main img{
+  width: 98%;
+}
+.third{
+  float: left;
+  width: 25%;
+  height: 500px;
+  background-color: lightgrey;
+}
+.one{
+  padding-left: 60px;
+  background-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-top: 5px solid grey;
+  border-bottom: 5px solid grey;
+  margin-top: 15px;
+}
+.tip{
+  color:green;
+}
+.two{
+  float: left;
+  width: 100%;
+  height: 75px;
+  /* background-color: white; */
+}
+.form{
+  float: left;
+  background-color: darkgreen;
+  font-size:
+}
+.oneSpan {
+    background-color: darkgreen;
+    margin: 0 17%;
+    border-bottom: color:grey; solid:4px;
+}
+.newsletter{
+  clear: both;
+  padding-left: 60px
+}
+.second small{
+  color: lightgrey;
+}
+.second p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.two ul{
+  padding: 0;
+}
+.third ul{
+  list-style: none;
+}
+.container form{
+  float: left;
+}
+.two form{
+  padding-left: 49px;
+}
+.two ul li span{
+  margin-left: 10px;
+}
+.main,.second,.third{
+  float: left;
+}
+#menu{
+  display: none;
+}
+
+
+
+
+/* ****************************************************MOBILE */
+@media only screen and (max-width: 768px){
+  section{
+  width: 100%;
+  }
+  header img{
+    display: none;
+  }
+  header span{
+    display: none;
+  }
+  .container{
+  width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  .second{
+    width:100%;
+  }
+  .third{
+    width: 100%;
+  }
+  .topLeft ul li{
+    display: none;
+  }
+  .line{
+    display: none;
+  }
+  .navi{
+    display: none;
+  }
+  .nav{
+    disp
+  }
+  .nav ul{
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+  #menu{
+    display: block;
+  }
+}
+/* *********************************************************TABLET */
+@media (min-width: 769px) and (max-width: 922px){
+  section{
+  width: 100%;
+  }
+  .container{
+  width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  .second{
+    width:50%;
+  }
+  .third{
+    width: 50%;
+  }
+  .topForm{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 15px;
+  }
+  #menu{
+    display: none;
+  }
+}
