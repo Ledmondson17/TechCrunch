@@ -1,5 +1,5 @@
-# My Awesome Project
-Copy of a Tech Crunch page  Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# Tech Crunch Replica
+Copy of a Tech Crunch page
 
 **Link to project:** https://app.netlify.com/sites/vigorous-cori-722913/overview
 
